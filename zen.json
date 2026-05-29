@@ -1,0 +1,22 @@
+{
+    "name": "Rainbow Audio Tabs",
+    "description": "Adds a smooth, animated background glow to any tab currently playing audio.",
+    "author": "Your Name",
+    "version": "1.0.0",
+    "readme": "README.md",
+    "stylesheet": "rainbow.css",
+    "preferences": [
+        {
+            "property": "mod.rainbow.colors",
+            "label": "Gradient Colors (Comma separated, min 2)",
+            "type": "string",
+            "defaultValue": "#ff4b4b, #e8d024, #24b8e8, #9b24e8, #ff4b4b"
+        },
+        {
+            "property": "mod.rainbow.opacity",
+            "label": "Glow Opacity (0.0 to 1.0)",
+            "type": "string",
+            "defaultValue": "0.15"
+        }
+    ]
+}
